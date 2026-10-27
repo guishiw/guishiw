@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Guishi W — AI Engineering, LLM Applications and Intelligent Systems" />
+  <img src="./assets/hero.svg" width="100%" alt="Guishi Wang — AI Engineering, LLM Applications and Intelligent Systems" />
 </div>
 
 <div align="center">
