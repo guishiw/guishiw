@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">Guishi W — AI Engineering</title>
-  <desc id="desc">A dark blue gradient banner introducing Guishi W and the focus areas LLM engineering, RAG, agents, and computer vision.</desc>
+  <title id="title">Guishi Wang — AI Engineering</title>
+  <desc id="desc">A dark blue gradient banner introducing Guishi Wang and the focus areas LLM engineering, RAG, agents, and computer vision.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#070B17"/>
@@ -43,7 +43,7 @@
 
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace">
     <text x="64" y="82" fill="#38BDF8" font-size="20" font-weight="700" letter-spacing="5">HELLO, I'M</text>
-    <text x="62" y="157" fill="#F8FAFC" font-size="62" font-weight="800" letter-spacing="1">GUISHI W</text>
+    <text x="62" y="157" fill="#F8FAFC" font-size="62" font-weight="800" letter-spacing="1">GUISHI WANG</text>
     <rect x="64" y="178" width="560" height="4" rx="2" fill="url(#accent)"/>
     <text x="64" y="218" fill="#CBD5E1" font-size="21">AI Engineering · LLM Applications · Intelligent Systems</text>
   </g>

@@ -13,18 +13,40 @@
 
 ## 👋 About Me
 
-我主要关注 **AI 工程化**：从 RAG、智能体与大模型网关，到文档智能和计算机视觉。比起只做 Demo，我更喜欢把模型能力做成可复用、可维护、可验证的系统。
+Hi, I'm **Guishi Wang**. I build practical **AI systems** across LLM applications, retrieval, agent workflows, document intelligence, and computer vision. I care less about isolated demos and more about turning model capabilities into systems that are reusable, maintainable, and verifiable.
 
-- 🤖 构建 LLM 应用、模型接入网关与多智能体工作流
-- 🔎 探索中文语义检索、Reranker 与文档知识处理
-- 👁️ 持续关注计算机视觉、目标检测与图像理解
-- 🧱 重视系统可靠性、可观测性与清晰的工程边界
+- 🤖 Building LLM applications, model gateways, and agent workflows
+- 🔎 Exploring Chinese semantic retrieval, reranking, and document intelligence
+- 👁️ Applying computer vision to object detection, similarity, and image understanding
+- 🧱 Engineering for reliability, observability, and clear system boundaries
+
+## 🧭 Capability Architecture
+
+```text
+AI Applications
+   │
+   ├── LLM Gateway       routing · rate limits · resilience · audit
+   ├── Knowledge & RAG   embeddings · retrieval · reranking
+   ├── Agents & Skills   tool use · workflows · reusable capabilities
+   └── Vision & Docs     parsing · similarity · object detection
+   │
+   ▼
+Engineering Systems
+   │
+   ├── Services          FastAPI · Next.js · Java
+   ├── Data & Runtime    MySQL · Redis · vector stores · Docker
+   └── Operations        observability · security · maintainability
+   │
+   ▼
+Applied Scenarios
+       knowledge work · procurement & compliance · developer productivity
+```
 
 ## 🚀 Featured Projects
 
-- **[Guishi-Skills](https://github.com/guishiw/Guishi-Skills)** — 面向数据分析、文档、演示、研究和代码库理解的可复用 Codex Skills 集合。
-- **[model-switch](https://github.com/guishiw/model-switch)** — 统一大模型 API 网关，包含多渠道路由、限流、熔断、队列、审计和可视化管理。
-- **[terms-rag](https://github.com/guishiw/terms-rag)** — 面向中文招标条款的离线 RAG 检索系统，使用 BGE、Reranker、ChromaDB 与 FastAPI。
+- **[Guishi-Skills](https://github.com/guishiw/Guishi-Skills)** — A growing collection of reusable Codex skills for data analysis, publishing, presentations, research, and codebase understanding.
+- **[model-switch](https://github.com/guishiw/model-switch)** — An OpenAI-compatible LLM gateway with multi-provider routing, rate limiting, circuit breaking, queues, auditing, and an admin console.
+- **[terms-rag](https://github.com/guishiw/terms-rag)** — An offline RAG system for Chinese tender clauses, powered by BGE embeddings, reranking, ChromaDB, and FastAPI.
 
 ## 🧰 Tech Stack
 
@@ -56,18 +78,18 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=guishiw&amp;show_icons=true&amp;hide_border=true&amp;theme=github_dark&amp;rank_icon=github" />
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=guishiw&amp;show_icons=true&amp;hide_border=true&amp;theme=default&amp;rank_icon=github" />
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=guishiw&amp;show_icons=true&amp;hide_border=true&amp;theme=default&amp;rank_icon=github" alt="Guishi's GitHub stats" />
+    <img height="165" src="https://github-readme-stats.vercel.app/api?username=guishiw&amp;show_icons=true&amp;hide_border=true&amp;theme=default&amp;rank_icon=github" alt="Guishi Wang's GitHub stats" />
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=guishiw&amp;layout=compact&amp;hide_border=true&amp;theme=github_dark&amp;langs_count=8" />
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=guishiw&amp;layout=compact&amp;hide_border=true&amp;theme=default&amp;langs_count=8" />
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=guishiw&amp;layout=compact&amp;hide_border=true&amp;theme=default&amp;langs_count=8" alt="Guishi's top languages" />
+    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=guishiw&amp;layout=compact&amp;hide_border=true&amp;theme=default&amp;langs_count=8" alt="Guishi Wang's top languages" />
   </picture>
 </p>
 
 ## 🤝 Let's Connect
 
-如果你也在关注 **LLM 工程化、RAG、智能体、文档智能或计算机视觉**，欢迎通过 GitHub 交流想法与项目。
+If you are interested in **LLM engineering, RAG, agents, document intelligence, or computer vision**, feel free to connect and exchange ideas through GitHub.
 
 <p>
   <a href="https://github.com/guishiw"><img src="https://img.shields.io/badge/GitHub-guishiw-181717?style=for-the-badge&logo=github" alt="GitHub profile" /></a>
