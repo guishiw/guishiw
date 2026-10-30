@@ -13,12 +13,13 @@
 
 ## 👋 About Me
 
-Hi, I'm **Guishi Wang**. I build practical **AI systems** across LLM applications, retrieval, agent workflows, document intelligence, and computer vision. I care less about isolated demos and more about turning model capabilities into systems that are reusable, maintainable, and verifiable.
+Hi, I'm **Guishi Wang**. I build practical **AI systems** across LLM applications, retrieval, agent workflows, document intelligence, and computer vision. I care less about isolated demos and more about turning model capabilities into systems that are reusable, maintainable, and verifiable. I also contribute focused fixes to open-source projects, taking issues from root-cause analysis through regression coverage and compatibility checks.
 
 - 🤖 Building LLM applications, model gateways, and agent workflows
 - 🔎 Exploring Chinese semantic retrieval, reranking, and document intelligence
 - 👁️ Applying computer vision to object detection, similarity, and image understanding
 - 🧱 Engineering for reliability, observability, and clear system boundaries
+- 🛠️ Contributing regression-tested fixes across AI tooling, runtimes, compilers, databases, and developer infrastructure
 
 ## 🧭 Capability Architecture
 
@@ -47,6 +48,19 @@ Applied Scenarios
 - **[Guishi-Skills](https://github.com/guishiw/Guishi-Skills)** — A growing collection of reusable Codex skills for data analysis, publishing, presentations, research, and codebase understanding.
 - **[model-switch](https://github.com/guishiw/model-switch)** — An OpenAI-compatible LLM gateway with multi-provider routing, rate limiting, circuit breaking, queues, auditing, and an admin console.
 - **[terms-rag](https://github.com/guishiw/terms-rag)** — An offline RAG system for Chinese tender clauses, powered by BGE embeddings, reranking, ChromaDB, and FastAPI.
+
+## 🧩 Recent Open Source Work
+
+Lately, I've been contributing focused fixes across AI tooling, runtimes, language tooling, databases, and developer infrastructure. I usually start from the root cause, keep the implementation narrow, and validate the concurrency, compatibility, security, or performance edge cases around it.
+
+- **Distributed reliability & media pipelines** — implemented Redis-leased global task slots, atomic repair of corrupted video caches, and consistent enum defaults in MoneyPrinterTurbo ([#1742](https://github.com/harry0703/MoneyPrinterTurbo/pull/1742), [#1743](https://github.com/harry0703/MoneyPrinterTurbo/pull/1743), [#1744](https://github.com/harry0703/MoneyPrinterTurbo/pull/1744)); fixed Electron edge cases around failed upload streams and pre-aborted message boxes ([#55520](https://github.com/electron/electron/pull/55520), [#55519](https://github.com/electron/electron/pull/55519)).
+- **AI model & runtime compatibility** — improved InvokeAI calibration retry isolation and LoRA/LyCORIS handling for DoRA, Diffusers Anima, and factorized layouts ([#10077](https://github.com/invoke-ai/InvokeAI/pull/10077), [#10075](https://github.com/invoke-ai/InvokeAI/pull/10075), [#10076](https://github.com/invoke-ai/InvokeAI/pull/10076), [#10060](https://github.com/invoke-ai/InvokeAI/pull/10060)); fixed Codex routing, reasoning-effort, output-token, and usage-metering behavior in cc-switch ([#8998](https://github.com/farion1231/cc-switch/pull/8998), [#8999](https://github.com/farion1231/cc-switch/pull/8999), [#9001](https://github.com/farion1231/cc-switch/pull/9001)).
+- **Compilers, SDKs & type systems** — corrected async policy chains and emitter option/server parameter handling in TypeSpec ([#12448](https://github.com/microsoft/typespec/pull/12448), [#12447](https://github.com/microsoft/typespec/pull/12447), [#12446](https://github.com/microsoft/typespec/pull/12446)); fixed cross-namespace models, binary response types, and nullable enum generation in Kiota ([#8517](https://github.com/microsoft/kiota/pull/8517), [#8516](https://github.com/microsoft/kiota/pull/8516), [#8515](https://github.com/microsoft/kiota/pull/8515)); and repaired narrowing and generator-expression behavior in Pyright ([#11952](https://github.com/microsoft/pyright/pull/11952), [#11951](https://github.com/microsoft/pyright/pull/11951), [#11950](https://github.com/microsoft/pyright/pull/11950)).
+- **Developer tools & data platforms** — isolated ECC observer scopes, removed duplicate Git status work, and reduced hook false positives ([#3817](https://github.com/affaan-m/ECC/pull/3817), [#3818](https://github.com/affaan-m/ECC/pull/3818), [#3819](https://github.com/affaan-m/ECC/pull/3819)); added Unicode SQL, wrapped ClickHouse type, and PostgreSQL partition fixes to DBeaver ([#42637](https://github.com/dbeaver/dbeaver/pull/42637), [#42638](https://github.com/dbeaver/dbeaver/pull/42638), [#42639](https://github.com/dbeaver/dbeaver/pull/42639)); and contributed targeted fixes to [Playwright](https://github.com/microsoft/playwright/pulls?q=is%3Apr+author%3Aguishiw), [RustDesk](https://github.com/rustdesk/rustdesk/pulls?q=is%3Apr+author%3Aguishiw), [Neovim](https://github.com/neovim/neovim/pulls?q=is%3Apr+author%3Aguishiw), and [VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics/pulls?q=is%3Apr+author%3Aguishiw).
+
+<p align="center">
+  <a href="https://github.com/pulls?q=is%3Apr+author%3Aguishiw"><strong>View all pull requests →</strong></a>
+</p>
 
 ## 🧰 Tech Stack
 
