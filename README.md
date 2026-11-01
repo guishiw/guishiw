@@ -63,21 +63,6 @@ Every contribution listed below has been **merged into the upstream project**.
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
 </p>
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=guishiw&amp;show_icons=true&amp;hide_border=true&amp;theme=github_dark&amp;rank_icon=github" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=guishiw&amp;show_icons=true&amp;hide_border=true&amp;theme=default&amp;rank_icon=github" />
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=guishiw&amp;show_icons=true&amp;hide_border=true&amp;theme=default&amp;rank_icon=github" alt="Guishi Wang's GitHub stats" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=guishiw&amp;layout=compact&amp;hide_border=true&amp;theme=github_dark&amp;langs_count=8" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=guishiw&amp;layout=compact&amp;hide_border=true&amp;theme=default&amp;langs_count=8" />
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=guishiw&amp;layout=compact&amp;hide_border=true&amp;theme=default&amp;langs_count=8" alt="Guishi Wang's top languages" />
-  </picture>
-</p>
-
 ## 🤝 Let's Connect
 
 If you're working on **LLM engineering, RAG, agents, document intelligence, computer vision, or open-source infrastructure**, feel free to connect through GitHub.
