@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0EA5E9&center=true&vCenter=true&width=680&lines=Building+reliable+LLM+applications;Exploring+RAG%2C+agents+%26+document+intelligence;Turning+AI+ideas+into+useful+systems" alt="Typing introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=0EA5E9&center=true&vCenter=true&width=720&lines=Building+reliable+AI+systems;Engineering+LLM%2C+RAG+%26+document+workflows;Contributing+tested+fixes+to+open+source" alt="Building reliable AI systems and contributing tested fixes to open source" />
 </div>
 
 <p align="center">
@@ -13,58 +13,39 @@
 
 ## 👋 About Me
 
-Hi, I'm **Guishi Wang**. I build practical **AI systems** across LLM applications, retrieval, agent workflows, document intelligence, and computer vision. I care less about isolated demos and more about turning model capabilities into systems that are reusable, maintainable, and verifiable. I also contribute focused fixes to open-source projects, taking issues from root-cause analysis through regression coverage and compatibility checks.
+I'm **Guishi Wang**, an AI and software engineer focused on turning model capabilities into dependable products. I work across LLM applications, retrieval, agent workflows, document intelligence, computer vision, and the backend systems that keep them reliable.
 
-- 🤖 Building LLM applications, model gateways, and agent workflows
-- 🔎 Exploring Chinese semantic retrieval, reranking, and document intelligence
-- 👁️ Applying computer vision to object detection, similarity, and image understanding
-- 🧱 Engineering for reliability, observability, and clear system boundaries
-- 🛠️ Contributing regression-tested fixes across AI tooling, runtimes, compilers, databases, and developer infrastructure
+I also contribute focused fixes to open-source projects. My usual workflow is simple: reproduce the issue, find the root cause, keep the change narrow, and add regression coverage for the edge cases that matter.
 
-## 🧭 Capability Architecture
-
-```text
-AI Applications
-   │
-   ├── LLM Gateway       routing · rate limits · resilience · audit
-   ├── Knowledge & RAG   embeddings · retrieval · reranking
-   ├── Agents & Skills   tool use · workflows · reusable capabilities
-   └── Vision & Docs     parsing · similarity · object detection
-   │
-   ▼
-Engineering Systems
-   │
-   ├── Services          FastAPI · Next.js · Java
-   ├── Data & Runtime    MySQL · Redis · vector stores · Docker
-   └── Operations        observability · security · maintainability
-   │
-   ▼
-Applied Scenarios
-       knowledge work · procurement & compliance · developer productivity
-```
+- **AI systems:** LLM gateways, provider routing, RAG, agents, and evaluation workflows
+- **Document intelligence:** parsing, semantic retrieval, reranking, and structured review
+- **Applied vision:** object detection, image similarity, and multimodal processing
+- **Production engineering:** APIs, concurrency, caching, observability, and maintainable system boundaries
 
 ## 🚀 Featured Projects
 
-- **[Guishi-Skills](https://github.com/guishiw/Guishi-Skills)** — A growing collection of reusable Codex skills for data analysis, publishing, presentations, research, and codebase understanding.
-- **[model-switch](https://github.com/guishiw/model-switch)** — An OpenAI-compatible LLM gateway with multi-provider routing, rate limiting, circuit breaking, queues, auditing, and an admin console.
-- **[terms-rag](https://github.com/guishiw/terms-rag)** — An offline RAG system for Chinese tender clauses, powered by BGE embeddings, reranking, ChromaDB, and FastAPI.
+| Project | What it does |
+| --- | --- |
+| **[Guishi-Skills](https://github.com/guishiw/Guishi-Skills)** | Reusable Codex skills for data analysis, publishing, presentations, research, and codebase understanding. |
+| **[model-switch](https://github.com/guishiw/model-switch)** | An OpenAI-compatible LLM gateway with multi-provider routing, rate limits, circuit breaking, queues, auditing, and an admin console. |
+| **[terms-rag](https://github.com/guishiw/terms-rag)** | An offline RAG system for Chinese tender clauses using BGE embeddings, reranking, ChromaDB, and FastAPI. |
 
-## 🧩 Recent Open Source Work
+## ✅ Merged Open-Source Contributions
 
-Lately, I've been contributing focused fixes across AI tooling, runtimes, language tooling, databases, and developer infrastructure. I usually start from the root cause, keep the implementation narrow, and validate the concurrency, compatibility, security, or performance edge cases around it.
+Every contribution listed below has been **merged into the upstream project**.
 
-- **Distributed reliability & media pipelines** — implemented Redis-leased global task slots, atomic repair of corrupted video caches, and consistent enum defaults in MoneyPrinterTurbo ([#1742](https://github.com/harry0703/MoneyPrinterTurbo/pull/1742), [#1743](https://github.com/harry0703/MoneyPrinterTurbo/pull/1743), [#1744](https://github.com/harry0703/MoneyPrinterTurbo/pull/1744)); fixed Electron edge cases around failed upload streams and pre-aborted message boxes ([#55520](https://github.com/electron/electron/pull/55520), [#55519](https://github.com/electron/electron/pull/55519)).
-- **AI model & runtime compatibility** — improved InvokeAI calibration retry isolation and LoRA/LyCORIS handling for DoRA, Diffusers Anima, and factorized layouts ([#10077](https://github.com/invoke-ai/InvokeAI/pull/10077), [#10075](https://github.com/invoke-ai/InvokeAI/pull/10075), [#10076](https://github.com/invoke-ai/InvokeAI/pull/10076), [#10060](https://github.com/invoke-ai/InvokeAI/pull/10060)); fixed Codex routing, reasoning-effort, output-token, and usage-metering behavior in cc-switch ([#8998](https://github.com/farion1231/cc-switch/pull/8998), [#8999](https://github.com/farion1231/cc-switch/pull/8999), [#9001](https://github.com/farion1231/cc-switch/pull/9001)).
-- **Compilers, SDKs & type systems** — corrected async policy chains and emitter option/server parameter handling in TypeSpec ([#12448](https://github.com/microsoft/typespec/pull/12448), [#12447](https://github.com/microsoft/typespec/pull/12447), [#12446](https://github.com/microsoft/typespec/pull/12446)); fixed cross-namespace models, binary response types, and nullable enum generation in Kiota ([#8517](https://github.com/microsoft/kiota/pull/8517), [#8516](https://github.com/microsoft/kiota/pull/8516), [#8515](https://github.com/microsoft/kiota/pull/8515)); and repaired narrowing and generator-expression behavior in Pyright ([#11952](https://github.com/microsoft/pyright/pull/11952), [#11951](https://github.com/microsoft/pyright/pull/11951), [#11950](https://github.com/microsoft/pyright/pull/11950)).
-- **Developer tools & data platforms** — isolated ECC observer scopes, removed duplicate Git status work, and reduced hook false positives ([#3817](https://github.com/affaan-m/ECC/pull/3817), [#3818](https://github.com/affaan-m/ECC/pull/3818), [#3819](https://github.com/affaan-m/ECC/pull/3819)); added Unicode SQL, wrapped ClickHouse type, and PostgreSQL partition fixes to DBeaver ([#42637](https://github.com/dbeaver/dbeaver/pull/42637), [#42638](https://github.com/dbeaver/dbeaver/pull/42638), [#42639](https://github.com/dbeaver/dbeaver/pull/42639)); and contributed targeted fixes to [Playwright](https://github.com/microsoft/playwright/pulls?q=is%3Apr+author%3Aguishiw), [RustDesk](https://github.com/rustdesk/rustdesk/pulls?q=is%3Apr+author%3Aguishiw), [Neovim](https://github.com/neovim/neovim/pulls?q=is%3Apr+author%3Aguishiw), and [VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics/pulls?q=is%3Apr+author%3Aguishiw).
+| Project | Merged work |
+| --- | --- |
+| **[InvokeAI](https://github.com/invoke-ai/InvokeAI)** | [#10076](https://github.com/invoke-ai/InvokeAI/pull/10076) Diffusers Anima LoRA mapping · [#10060](https://github.com/invoke-ai/InvokeAI/pull/10060) factorized LyCORIS layouts · [#10059](https://github.com/invoke-ai/InvokeAI/pull/10059) Anima kohya non-block mapping · [#10058](https://github.com/invoke-ai/InvokeAI/pull/10058) FLUX PEFT alpha preservation · [#10050](https://github.com/invoke-ai/InvokeAI/pull/10050) Qwen-Image multimodal token types · [#10048](https://github.com/invoke-ai/InvokeAI/pull/10048) convolution-shaped LoHa factors |
+| **[MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)** | [#1742](https://github.com/harry0703/MoneyPrinterTurbo/pull/1742) Redis-backed global task concurrency · [#1743](https://github.com/harry0703/MoneyPrinterTurbo/pull/1743) consistent enum defaults · [#1744](https://github.com/harry0703/MoneyPrinterTurbo/pull/1744) atomic repair of corrupt cached videos |
+| **[Playwright](https://github.com/microsoft/playwright)** | [#43713](https://github.com/microsoft/playwright/pull/43713) disallow skips in `after` hooks |
+| **[cc-switch](https://github.com/farion1231/cc-switch)** | [#8998](https://github.com/farion1231/cc-switch/pull/8998) restore Codex reasoning effort after re-enabling it |
 
 <p align="center">
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Aguishiw"><strong>View all pull requests →</strong></a>
+  <a href="https://github.com/search?q=author%3Aguishiw+is%3Apr+is%3Amerged&type=pullrequests"><strong>View all merged pull requests →</strong></a>
 </p>
 
 ## 🧰 Tech Stack
-
-### Languages
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
@@ -73,17 +54,13 @@ Lately, I've been contributing focused fixes across AI tooling, runtimes, langua
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827" alt="JavaScript" />
 </p>
 
-### AI, Backend & Infrastructure
-
 <p>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=111827" alt="Hugging Face" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 </p>
 
 ## 📊 GitHub Stats
@@ -103,7 +80,7 @@ Lately, I've been contributing focused fixes across AI tooling, runtimes, langua
 
 ## 🤝 Let's Connect
 
-If you are interested in **LLM engineering, RAG, agents, document intelligence, or computer vision**, feel free to connect and exchange ideas through GitHub.
+If you're working on **LLM engineering, RAG, agents, document intelligence, computer vision, or open-source infrastructure**, feel free to connect through GitHub.
 
 <p>
   <a href="https://github.com/guishiw"><img src="https://img.shields.io/badge/GitHub-guishiw-181717?style=for-the-badge&logo=github" alt="GitHub profile" /></a>
